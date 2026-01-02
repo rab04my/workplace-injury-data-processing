@@ -6,17 +6,18 @@ This repository contains Python analysis code for harmonizing and exploring **fi
 
 | Dataset   | Source                                                                 | Records | Focus                                      |
 |-----------|------------------------------------------------------------------------|---------|--------------------------------------------|
-| OSHA SIR  | [U.S. Dept. Labor, OSHA](https://www.osha.gov/ords/imis/accidentsearch.html) | 97K     | Severe injuries (hospitalization, amputation, eye loss) |
-| OSHA ITA  | [U.S. Dept. Labor, OSHA](https://www.osha.gov/ords/imis/accidentsearch.html) | 1.64M   | Recordable cases w/ narratives             |
-| TX SV2    | [Texas DWC](https://www.tdi.texas.gov/wc/sv2/index.html)               | 5.4M    | Medical billing transactions               |
-| OR WC     | [Oregon DCBS](https://www.oregon.gov/dcbs/analytics/Pages/data-requests.aspx) | 170K    | Workers' comp claims                        |
-| NY WC     | [NY WCB](https://www.wcb.ny.gov/content/main/Research/Research-Statistics.jsp) | 266K    | Workers' comp claims                        |
+| OSHA SIR  | [U.S. Dept. Labor, OSHA](https://www.osha.gov/severe-injury-reports) | 97K     | Severe injuries (hospitalization, amputation, eye loss) |
+| OSHA ITA  | [U.S. Dept. Labor, OSHA](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data) | 1.64M   | Recordable cases w/ narratives             |
+| TX SV2    | [Texas Dept. of Insurance](https://www.tdi.texas.gov/wc/index.html)               | 5.4M    | Medical billing transactions               |
+| OR WC     | [Oregon Worker's Compensation Division](https://wcd.oregon.gov/Pages/index.aspx) | 170K    | Workers' comp claims                        |
+| NY WC     | [NY Workers’ Compensation Board](https://www.wcb.ny.gov/) | 266K    | Workers' comp claims                        |
 
 **Raw data sources** (public access required):
-- OSHA SIR/ITA: [OSHA Injury Tracking Application](https://www.osha.gov/ords/imis/accidentsearch.html)
-- TX SV2: [Texas Division of Workers' Compensation](https://www.tdi.texas.gov/wc/sv2/index.html)
-- OR WC: [Oregon DCBS Data Requests](https://www.oregon.gov/dcbs/analytics/Pages/data-requests.aspx)
-- NY WC: [NY Workers' Compensation Board](https://www.wcb.ny.gov/content/main/Research/Research-Statistics.jsp)
+- OSHA SIR: [Severe Injury Dashboard](https://www.osha.gov/severe-injury-reports)
+- OSHA ITA: [OSHA Injury Tracking Application (ITA) Data](https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data)
+- TX SV2: [Texas Institutional Medical Billing Services (SV2) Detail Information](https://data.texas.gov/dataset/Institutional-Medical-Billing-Services-SV2-Detail-/tuuc-49gz/about_data)
+- OR WC: [Oregon Workers' Compensation Record Level Claims](https://catalog.data.gov/dataset/oregon-workers-compensation-record-level-claims)
+- NY WC: [NY State Workers' Compensation Injury Claims](https://www.kaggle.com/datasets/thedevastator/new-york-state-workers-compensation-injury-claim)
 
 ## 🎯 Key Features
 
