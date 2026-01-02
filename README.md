@@ -1,4 +1,4 @@
-# Workplace Injury Multi-Dataset Analysis
+# Workplace Injury Multi-Dataset Processing and Analysis
 
 This repository contains Python analysis code for harmonizing and exploring **five U.S. workplace injury datasets** spanning **2015–2024** (selected range for this study), totaling **~7.5M records**. The notebook processes raw data, performs text classification on injury narratives, generates visualizations, and computes dataset completeness metrics.
 
